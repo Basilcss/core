@@ -3,8 +3,8 @@
 
 ## how to use
 
-0) run `npm install basilcss` or `yarn add basilcss` in your project directory.
-1) go to your root file for example `main.jsx` and write `import 'basilcss/basil.css'` on top of your file.
+0) Run `npm install basilcss` or `yarn add basilcss` in your project directory.
+1) Go to your root file for example `main.jsx` and write `import 'basilcss/basil.css'` on top of your file.
 2) Start styling your project.
 
 ## Contributing
