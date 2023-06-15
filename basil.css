@@ -1,0 +1,135 @@
+/*  basil - css boilerplate
+
+ main css variables */
+
+:root {
+  /* default sizes */
+  --sm: 1rem;
+  --md: 2rem;
+  --lg: 3rem;
+  --xl: 4rem;
+
+  /* colors */
+  --primary: #333;
+  --secondary: #fff;
+  --accent: #f00;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*   Grid
+  ------------------------- */
+.row {
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-gap: 10px;
+  margin: 5px;
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+.col-2 {
+  grid-column: span 2;
+}
+.col-3 {
+  grid-column: span 3;
+}
+.col-4 {
+  grid-column: span 4;
+}
+.col-5 {
+  grid-column: span 5;
+}
+.col-6 {
+  grid-column: span 6;
+}
+.col-7 {
+  grid-column: span 7;
+}
+.col-8 {
+  grid-column: span 8;
+}
+
+/*  Flexbox
+ ------------------------- */
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*   Buttons
+  ------------------------- */
+
+.btn-primary {
+  color: var(--primary);
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 2px solid #333;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/*  margin
+ ------------------------- */
+.m-0 {
+  margin: 0;
+}
+.m-1 {
+  margin: var(--sm);
+}
+.m-2 {
+  margin: var(--md);
+}
+.m-3 {
+  margin: var(--lg);
+}
+.m-4 {
+  margin: var(--xl);
+}
+
+/*  padding
+ ------------------------- */
+.p-0 {
+  padding: 0;
+}
+.p-1 {
+  padding: var(--sm);
+}
+.p-2 {
+  padding: var(--md);
+}
+.p-3 {
+  padding: var(--lg);
+}
+.p-4 {
+  padding: var(--xl);
+}
+
+/*  Font Sizes
+ ------------------------- */
+.fs-1 {
+  font-size: var(--sm);
+}
+.fs-2 {
+  font-size: var(--md);
+}
+.fs-3 {
+  font-size: var(--lg);
+}
+.fs-4 {
+  font-size: var(--xl);
+}
