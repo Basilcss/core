@@ -1,0 +1,22 @@
+{
+  "name": "basilcss",
+  "version": "1.0.0",
+  "description": "A lightweight CSS framework",
+  "main": "basil.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-bergmann/basilcss.git"
+  },
+  "keywords": [
+    "basilcss"
+  ],
+  "author": "Daniel Bergmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-bergmann/basilcss/issues"
+  },
+  "homepage": "https://github.com/daniel-bergmann/basilcss#readme"
+}
