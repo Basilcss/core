@@ -1,4 +1,5 @@
-# Basil CSS is a lightweight CSS framework
+# Basil CSS 
+### A simple and lightweight CSS framework for building custom user interfaces.
 
 ## how to use
 
