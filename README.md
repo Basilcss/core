@@ -1,5 +1,9 @@
-# basilcss is a lightweight UI boilerplate
+# basilcss is a lightweight CSS framework
 
-Please reuse, abuse or make your own copy 
+## how to use
 
-Instructions coming soon...
+0) run `npm install basilcss` or `yarn add basilcss`in your project directory.
+1) go to your root file for example `main.jsx` in a react vite project and write `import 'basilcss/basil.css'` on top of your file.
+2) Style your project.
+
+
