@@ -11,7 +11,7 @@
 /*  css variables  */
 
 :root {
-  /* default sizes */
+  /* these sizes are used through out the boilerplate */
   --sm: 1rem;
   --md: 2rem;
   --lg: 3rem;
@@ -19,6 +19,7 @@
 
   /* Font family */
   --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Open Sans", sans-serif;
 
   /* colors */
   --primary: #333;
@@ -48,6 +49,15 @@ a:hover {
   grid-gap: var(--sm);
 }
 
+/* for larger screens */
+@media (min-width: 764px) {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: var(--sm);
+  }
+}
+
 .col-1 {
   grid-column: span 1;
 }
@@ -71,6 +81,41 @@ a:hover {
 }
 .col-8 {
   grid-column: span 8;
+}
+
+/* for larger screens */
+@media (min-width: 764px) {
+  .desktop\:col-1 {
+    grid-column: span 1;
+  }
+
+  .desktop\:col-2 {
+    grid-column: span 2;
+  }
+
+  .desktop\:col-3 {
+    grid-column: span 3;
+  }
+
+  .desktop\:col-4 {
+    grid-column: span 4;
+  }
+
+  .desktop\:col-5 {
+    grid-column: span 5;
+  }
+
+  .desktop\:col-6 {
+    grid-column: span 6;
+  }
+
+  .desktop\:col-7 {
+    grid-column: span 7;
+  }
+
+  .desktop\:col-8 {
+    grid-column: span 8;
+  }
 }
 
 /*  Flexbox
@@ -100,6 +145,46 @@ a:hover {
 
 .flex-right {
   align-items: flex-end;
+}
+
+/* for larger screens */
+@media (min-width: 764px) {
+  .desktop\:flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop\:flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* centering elements */
+
+  .desktop\:flex-center {
+    justify-content: center;
+  }
+
+  .desktop\:flex-left {
+    align-items: flex-start;
+  }
+
+  .desktop\:flex-right {
+    align-items: flex-end;
+  }
+}
+
+/* Width */
+
+.w-100precent {
+  width: 100%;
+}
+
+/* for larger screens */
+@media (min-width: 764px) {
+  .desktop\:w-100precent {
+    width: 100%;
+  }
 }
 
 /*   Buttons
@@ -140,6 +225,78 @@ a:hover {
   margin: var(--xl);
 }
 
+/* margin-top */
+
+.m-t-1 {
+  margin-top: var(--sm);
+}
+
+.m-t-2 {
+  margin-top: var(--md);
+}
+
+.m-t-3 {
+  margin-top: var(--lg);
+}
+
+.m-t-4 {
+  margin-top: var(--xl);
+}
+
+/* margin-right */
+
+.m-r-1 {
+  margin-right: var(--sm);
+}
+
+.m-r-2 {
+  margin-right: var(--md);
+}
+
+.m-r-3 {
+  margin-right: var(--lg);
+}
+
+.m-r-4 {
+  margin-right: var(--xl);
+}
+
+/* margin-bottom */
+
+.m-b-1 {
+  margin-bottom: var(--sm);
+}
+
+.m-b-2 {
+  margin-bottom: var(--md);
+}
+
+.m-b-3 {
+  margin-bottom: var(--lg);
+}
+
+.m-b-4 {
+  margin-bottom: var(--xl);
+}
+
+/* margin-left */
+
+.m-l-1 {
+  margin-left: var(--sm);
+}
+
+.m-l-2 {
+  margin-left: var(--md);
+}
+
+.m-l-3 {
+  margin-left: var(--lg);
+}
+
+.m-l-4 {
+  margin-left: var(--xl);
+}
+
 /*  padding
  ------------------------- */
 .p-0 {
@@ -156,6 +313,78 @@ a:hover {
 }
 .p-4 {
   padding: var(--xl);
+}
+
+/* padding-top */
+
+.p-t-1 {
+  padding-top: var(--sm);
+}
+
+.p-t-2 {
+  padding-top: var(--md);
+}
+
+.p-t-3 {
+  padding-top: var(--lg);
+}
+
+.p-t-4 {
+  padding-top: var(--xl);
+}
+
+/* padding-right */
+
+.p-r-1 {
+  padding-right: var(--sm);
+}
+
+.p-r-2 {
+  padding-right: var(--md);
+}
+
+.p-r-3 {
+  padding-right: var(--lg);
+}
+
+.p-r-4 {
+  padding-right: var(--xl);
+}
+
+/* padding-bottom */
+
+.p-b-1 {
+  padding-bottom: var(--sm);
+}
+
+.p-b-2 {
+  padding-bottom: var(--md);
+}
+
+.p-b-3 {
+  padding-bottom: var(--lg);
+}
+
+.p-b-4 {
+  padding-bottom: var(--xl);
+}
+
+/* padding-left */
+
+.p-l-1 {
+  padding-left: var(--sm);
+}
+
+.p-l-2 {
+  padding-left: var(--md);
+}
+
+.p-l-3 {
+  padding-left: var(--lg);
+}
+
+.p-l-4 {
+  padding-left: var(--xl);
 }
 
 /*  Font Sizes
@@ -180,4 +409,8 @@ a:hover {
 
 .color-secondary {
   color: var(--secondary);
+}
+
+.color-accent {
+  color: var(--accent);
 }
