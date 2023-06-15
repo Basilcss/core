@@ -10,3 +10,7 @@
 ## Contributing
 
 If you're interested in contributing to Basil CSS, please read our [contributing docs](https://github.com/daniel-bergmann/basilcss) [coming soon] **before submitting a pull request**.
+
+## Documentation
+
+[Coming soon]
