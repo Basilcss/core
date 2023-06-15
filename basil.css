@@ -17,6 +17,9 @@
   --lg: 3rem;
   --xl: 4rem;
 
+  /* Font family */
+  --font-primary: "Roboto", sans-serif;
+
   /* colors */
   --primary: #333;
   --secondary: #fff;
@@ -24,9 +27,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: var(--font-primary);
   color: var(--primary);
 }
 
@@ -43,7 +44,7 @@ a:hover {
 ------------------------- */
 .row {
   display: grid;
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-gap: var(--sm);
 }
 
@@ -74,6 +75,9 @@ a:hover {
 
 /*  Flexbox
  ------------------------- */
+
+/* align things in a row ⇀ or column ↧ */
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -88,7 +92,14 @@ a:hover {
 
 .flex-center {
   justify-content: center;
-  align-items: center;
+}
+
+.flex-left {
+  align-items: flex-start;
+}
+
+.flex-right {
+  align-items: flex-end;
 }
 
 /*   Buttons
