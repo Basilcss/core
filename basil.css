@@ -1,6 +1,14 @@
-/*  basil - css boilerplate
+/*  basil - css boilerplate */
 
- main css variables */
+/*  Global Styles
+------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*  css variables  */
 
 :root {
   /* default sizes */
@@ -12,21 +20,31 @@
   /* colors */
   --primary: #333;
   --secondary: #fff;
-  --accent: #f00;
+  --accent: rgb(35, 156, 22);
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--accent);
 }
 
 /*   Grid
-  ------------------------- */
+------------------------- */
 .row {
   display: grid;
   grid-template-rows: repeat(8, 1fr);
-  grid-gap: 10px;
-  margin: 5px;
+  grid-gap: var(--sm);
 }
 
 .col-1 {
@@ -56,9 +74,19 @@
 
 /*  Flexbox
  ------------------------- */
-.flex {
+.flex-row {
   display: flex;
   flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* centering elements */
+
+.flex-center {
   justify-content: center;
   align-items: center;
 }
@@ -68,10 +96,10 @@
 
 .btn-primary {
   color: var(--primary);
-  background-color: #fff;
+  background-color: var(--secondary);
   padding: 10px 20px;
   border-radius: 3px;
-  border: 2px solid #333;
+  border: 2px solid var(--primary);
   cursor: pointer;
   font-weight: 600;
   text-transform: uppercase;
@@ -79,8 +107,8 @@
 }
 
 .btn-primary:hover {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
 /*  margin
@@ -132,4 +160,13 @@
 }
 .fs-4 {
   font-size: var(--xl);
+}
+
+/* color */
+.color-primary {
+  color: var(--primary);
+}
+
+.color-secondary {
+  color: var(--secondary);
 }
