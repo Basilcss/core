@@ -1,23 +1,19 @@
-/*  basil - css boilerplate */
-
-/*  Global Styles
-------------------------- */
+/*  basil - css framework */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/*  css variables  */
-
+/* CSS Variables */
 :root {
-  /* these sizes are used through out the boilerplate */
-  --sm: 1rem;
-  --md: 2rem;
-  --lg: 3rem;
-  --xl: 4rem;
+  /* size */
+  --sm: 0.5rem;
+  --md: 1rem;
+  --lg: 2rem;
+  --xl: 3rem;
 
-  /* Font family */
+  /* font family */
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Open Sans", sans-serif;
 
@@ -49,9 +45,8 @@ a:hover {
   grid-gap: var(--sm);
 }
 
-/* for larger screens */
 @media (min-width: 764px) {
-  .row {
+  .desktop\:row {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: var(--sm);
@@ -83,7 +78,6 @@ a:hover {
   grid-column: span 8;
 }
 
-/* for larger screens */
 @media (min-width: 764px) {
   .desktop\:col-1 {
     grid-column: span 1;
@@ -121,8 +115,6 @@ a:hover {
 /*  Flexbox
  ------------------------- */
 
-/* align things in a row ⇀ or column ↧ */
-
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -132,8 +124,6 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
-
-/* centering elements */
 
 .flex-center {
   justify-content: center;
@@ -147,7 +137,6 @@ a:hover {
   align-items: flex-end;
 }
 
-/* for larger screens */
 @media (min-width: 764px) {
   .desktop\:flex-row {
     display: flex;
@@ -158,8 +147,6 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
-
-  /* centering elements */
 
   .desktop\:flex-center {
     justify-content: center;
@@ -174,27 +161,20 @@ a:hover {
   }
 }
 
-/* Width */
-
-.w-100precent {
+.w-100pr {
   width: 100%;
 }
 
-/* for larger screens */
 @media (min-width: 764px) {
-  .desktop\:w-100precent {
+  .desktop\:w-100pr {
     width: 100%;
   }
 }
-
-/*   Buttons
-  ------------------------- */
 
 .btn-primary {
   color: var(--primary);
   background-color: var(--secondary);
   padding: 10px 20px;
-  border-radius: 3px;
   border: 2px solid var(--primary);
   cursor: pointer;
   font-weight: 600;
@@ -207,8 +187,6 @@ a:hover {
   color: var(--secondary);
 }
 
-/*  margin
- ------------------------- */
 .m-0 {
   margin: 0;
 }
@@ -224,8 +202,6 @@ a:hover {
 .m-4 {
   margin: var(--xl);
 }
-
-/* margin-top */
 
 .m-t-1 {
   margin-top: var(--sm);
@@ -243,8 +219,6 @@ a:hover {
   margin-top: var(--xl);
 }
 
-/* margin-right */
-
 .m-r-1 {
   margin-right: var(--sm);
 }
@@ -260,8 +234,6 @@ a:hover {
 .m-r-4 {
   margin-right: var(--xl);
 }
-
-/* margin-bottom */
 
 .m-b-1 {
   margin-bottom: var(--sm);
@@ -279,8 +251,6 @@ a:hover {
   margin-bottom: var(--xl);
 }
 
-/* margin-left */
-
 .m-l-1 {
   margin-left: var(--sm);
 }
@@ -297,8 +267,6 @@ a:hover {
   margin-left: var(--xl);
 }
 
-/*  padding
- ------------------------- */
 .p-0 {
   padding: 0;
 }
@@ -314,8 +282,6 @@ a:hover {
 .p-4 {
   padding: var(--xl);
 }
-
-/* padding-top */
 
 .p-t-1 {
   padding-top: var(--sm);
@@ -333,8 +299,6 @@ a:hover {
   padding-top: var(--xl);
 }
 
-/* padding-right */
-
 .p-r-1 {
   padding-right: var(--sm);
 }
@@ -350,8 +314,6 @@ a:hover {
 .p-r-4 {
   padding-right: var(--xl);
 }
-
-/* padding-bottom */
 
 .p-b-1 {
   padding-bottom: var(--sm);
@@ -369,8 +331,6 @@ a:hover {
   padding-bottom: var(--xl);
 }
 
-/* padding-left */
-
 .p-l-1 {
   padding-left: var(--sm);
 }
@@ -387,8 +347,6 @@ a:hover {
   padding-left: var(--xl);
 }
 
-/*  Font Sizes
- ------------------------- */
 .fs-1 {
   font-size: var(--sm);
 }
@@ -402,7 +360,6 @@ a:hover {
   font-size: var(--xl);
 }
 
-/* color */
 .color-primary {
   color: var(--primary);
 }
@@ -411,6 +368,41 @@ a:hover {
   color: var(--secondary);
 }
 
-.color-accent {
-  color: var(--accent);
+.hidden {
+  display: none;
 }
+
+@media (min-width: 764px) {
+  .desktop\:hidden {
+    display: none;
+  }
+}
+
+.visible {
+  display: block;
+}
+
+@media (min-width: 764px) {
+  .desktop\:visible {
+    display: block;
+  }
+}
+
+.b-radius-1 {
+  border-radius: var(--sm);
+}
+
+.b-radius-2 {
+  border-radius: var(--md);
+}
+
+/* background color */
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+
