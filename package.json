@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daniel-bergmann/basilcss.git"
+    "url": "git+https://github.com/Basilcss/core.git"
   },
   "keywords": [
     "basilcss"
@@ -16,7 +16,7 @@
   "author": "Daniel Bergmann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daniel-bergmann/basilcss/issues"
+    "url": "https://github.com/Basilcss/core/issues"
   },
-  "homepage": "https://github.com/daniel-bergmann/basilcss#readme"
+  "homepage": "https://github.com/Basilcss"
 }
