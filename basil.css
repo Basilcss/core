@@ -13,10 +13,6 @@
   --lg: 2rem;
   --xl: 3rem;
 
-  /* font family */
-  --font-primary: "Roboto", sans-serif;
-  --font-secondary: "Open Sans", sans-serif;
-
   /* colors */
   --primary: #333;
   --secondary: #fff;
@@ -24,12 +20,10 @@
 }
 
 body {
-  font-family: var(--font-primary);
   color: var(--primary);
 }
 
 a {
-  text-decoration: none;
   color: var(--primary);
 }
 
@@ -360,14 +354,6 @@ a:hover {
   font-size: var(--xl);
 }
 
-.color-primary {
-  color: var(--primary);
-}
-
-.color-secondary {
-  color: var(--secondary);
-}
-
 .hidden {
   display: none;
 }
@@ -387,22 +373,4 @@ a:hover {
     display: block;
   }
 }
-
-.b-radius-1 {
-  border-radius: var(--sm);
-}
-
-.b-radius-2 {
-  border-radius: var(--md);
-}
-
-/* background color */
-.bg-primary {
-  background-color: var(--primary);
-}
-
-.bg-secondary {
-  background-color: var(--secondary);
-}
-
 
