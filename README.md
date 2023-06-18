@@ -14,4 +14,4 @@ If you're interested in contributing to Basil CSS, please read our [contributing
 
 ## Documentation
 
-[Coming soon]
+[Link to docs](https://docs-basilcss.vercel.app/)
