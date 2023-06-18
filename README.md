@@ -10,7 +10,7 @@
 
 ## Contributing
 
-If you're interested in contributing to Basil CSS, please read our [contributing docs](https://github.com/Basilcss/core/blob/main/CONTRIBUTING.md) [coming soon] **before submitting a pull request**.
+If you're interested in contributing to Basil CSS, please read our [contributing docs](https://github.com/Basilcss/core/blob/main/CONTRIBUTING.md) **before submitting a pull request**.
 
 ## Documentation
 
