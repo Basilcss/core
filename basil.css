@@ -128,7 +128,7 @@ a:hover {
 }
 
 .flex-right {
-  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 @media (min-width: 764px) {
@@ -151,7 +151,7 @@ a:hover {
   }
 
   .desktop\:flex-right {
-    align-items: flex-end;
+    justify-content: flex-end;
   }
 }
 
