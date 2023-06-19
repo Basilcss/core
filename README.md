@@ -1,5 +1,7 @@
 ![basilcss logo](https://raw.githubusercontent.com/Basilcss/docs/main/basilcss-transparent.png)
+
 # Basil CSS
+
 ### A simple and lightweight CSS framework for building custom user interfaces.
 
 ## how to use
@@ -15,3 +17,5 @@ If you're interested in contributing to Basil CSS, please read our [contributing
 ## Documentation
 
 [Link to docs](https://docs-basilcss.vercel.app/)
+
+#### Issue - "flex-left not working" has been resolved
