@@ -1,5 +1,7 @@
 ![basilcss logo](https://raw.githubusercontent.com/Basilcss/docs/main/basilcss-transparent.png)
+
 # Basil CSS
+
 ### A simple and lightweight CSS framework for building custom user interfaces.
 
 ## how to use

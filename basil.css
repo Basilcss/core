@@ -123,12 +123,14 @@ a:hover {
   justify-content: center;
 }
 
+
 .b-flex-left {
-  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .b-flex-right {
-  align-items: flex-end;
+  justify-content: flex-end;
+
 }
 
 @media (min-width: 764px) {
@@ -151,7 +153,7 @@ a:hover {
   }
 
   .b-desktop\:b-flex-right {
-    align-items: flex-end;
+    justify-content: flex-end;
   }
 }
 
