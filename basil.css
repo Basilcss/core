@@ -1,4 +1,8 @@
-/*  basil - css framework */
+/*  basil - css framework
+
+Created by Daniel Bergmann, built by the community.
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -31,8 +35,6 @@ a:hover {
   color: var(--accent);
 }
 
-/*   Grid
-------------------------- */
 .b-row {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -106,9 +108,6 @@ a:hover {
   }
 }
 
-/*  Flexbox
- ------------------------- */
-
 .b-flex-row {
   display: flex;
   flex-direction: row;
@@ -123,14 +122,12 @@ a:hover {
   justify-content: center;
 }
 
-
 .b-flex-left {
   justify-content: flex-start;
 }
 
 .b-flex-right {
   justify-content: flex-end;
-
 }
 
 @media (min-width: 764px) {
