@@ -124,7 +124,7 @@ a:hover {
 }
 
 .flex-left {
-  align-items: flex-start;
+  justify-content: flex-start; /* previously it was align-items: flex-start */
 }
 
 .flex-right {
