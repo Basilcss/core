@@ -23,14 +23,6 @@ Created by Daniel Bergmann, built by the community.
   --accent: rgb(35, 156, 22);
 }
 
-body {
-  color: var(--primary);
-}
-
-a {
-  color: var(--primary);
-}
-
 a:hover {
   color: var(--accent);
 }
@@ -79,8 +71,6 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-gap: var(--sm);
-  border: 1px solid black;
-  background-color: green;
 }
 
 @media (min-width: 764px) {
@@ -93,7 +83,6 @@ a:hover {
 
 .b-col-1 {
   grid-column: span 1;
-  background-color: red;
 }
 .b-col-2 {
   grid-column: span 2;
@@ -199,7 +188,6 @@ a:hover {
 }
 
 .b-btn-primary {
-  color: var(--primary);
   background-color: var(--secondary);
   padding: 10px 20px;
   border: 2px solid var(--primary);
