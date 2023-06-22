@@ -24,10 +24,13 @@ Created by Daniel Bergmann, built by the community.
 }
 
 a:hover {
-  color: var(--accent);
+  /* color: var(--accent); */
+  color: var(--secondary)
 }
 
-
+a {
+  color: var(--accent)
+}
 
 .b-100-vw {
   width: 100vw;
