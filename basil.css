@@ -25,13 +25,19 @@ Created by Daniel Bergmann, built by the community.
 
 a:hover {
   /* color: var(--accent); */
-  color: var(--secondary)
+  color: var(--secondary);
 }
 
 a {
-  color: var(--accent)
+  color: var(--accent);
 }
 
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 .b-vh-10 {
   height: 10vh;
@@ -115,7 +121,6 @@ a {
   }
 }
 
-
 .b-w-100pr {
   width: 100%;
 }
@@ -125,8 +130,6 @@ a {
     width: 100%;
   }
 }
-
-
 
 .b-h-100pr {
   height: 100%;
