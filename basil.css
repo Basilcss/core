@@ -505,6 +505,9 @@ ol {
   margin: var(--xl);
 }
 
+.m-t-0 {
+  margin-top: 0;
+}
 .m-t-1 {
   margin-top: var(--sm);
 }
@@ -519,6 +522,10 @@ ol {
 
 .m-t-4 {
   margin-top: var(--xl);
+}
+
+.m-r-0 {
+  margin-right: 0;
 }
 
 .m-r-1 {
@@ -537,6 +544,10 @@ ol {
   margin-right: var(--xl);
 }
 
+.m-b-0 {
+  margin-bottom: 0;
+}
+
 .m-b-1 {
   margin-bottom: var(--sm);
 }
@@ -551,6 +562,10 @@ ol {
 
 .m-b-4 {
   margin-bottom: var(--xl);
+}
+
+.m-l-0 {
+  margin-left: 0;
 }
 
 .m-l-1 {
@@ -585,6 +600,10 @@ ol {
   padding: var(--xl);
 }
 
+.p-t-0 {
+  padding-top: 0;
+}
+
 .p-t-1 {
   padding-top: var(--sm);
 }
@@ -599,6 +618,10 @@ ol {
 
 .p-t-4 {
   padding-top: var(--xl);
+}
+
+.p-r-0 {
+  padding-right: 0;
 }
 
 .p-r-1 {
@@ -617,6 +640,10 @@ ol {
   padding-right: var(--xl);
 }
 
+.p-b-0 {
+  padding-bottom: 0;
+}
+
 .p-b-1 {
   padding-bottom: var(--sm);
 }
@@ -631,6 +658,10 @@ ol {
 
 .p-b-4 {
   padding-bottom: var(--xl);
+}
+
+.p-l-0 {
+  padding-left: 0;
 }
 
 .p-l-1 {
@@ -666,6 +697,10 @@ ol {
     margin: var(--xl);
   }
 
+  .desktop\:m-t-0 {
+    margin-top: 0;
+  }
+
   .desktop\:m-t-1 {
     margin-top: var(--sm);
   }
@@ -677,6 +712,10 @@ ol {
   }
   .desktop\:m-t-4 {
     margin-top: var(--xl);
+  }
+
+  .desktop\:m-r-0 {
+    margin-right: 0;
   }
 
   .desktop\:m-r-1 {
@@ -692,6 +731,10 @@ ol {
     margin-right: var(--xl);
   }
 
+  .desktop\:m-b-0 {
+    margin-bottom: 0;
+  }
+
   .desktop\:m-b-1 {
     margin-bottom: var(--sm);
   }
@@ -703,6 +746,10 @@ ol {
   }
   .desktop\:m-b-4 {
     margin-bottom: var(--xl);
+  }
+
+  .desktop\:m-l-0 {
+    margin-left: 0;
   }
 
   .desktop\:m-l-1 {
@@ -717,6 +764,7 @@ ol {
   .desktop\:m-l-4 {
     margin-left: var(--xl);
   }
+
 
   .desktop\:p-0 {
     padding: 0;
@@ -734,6 +782,10 @@ ol {
     padding: var(--xl);
   }
 
+  .desktop\:p-t-0 {
+    padding-top: 0;
+  }
+
   .desktop\:p-t-1 {
     padding-top: var(--sm);
   }
@@ -745,6 +797,10 @@ ol {
   }
   .desktop\:p-t-4 {
     padding-top: var(--xl);
+  }
+
+  .desktop\:p-r-0 {
+    padding-right: 0;
   }
 
   .desktop\:p-r-1 {
@@ -760,6 +816,10 @@ ol {
     padding-right: var(--xl);
   }
 
+  .desktop\:p-b-0 {
+    padding-bottom: 0;
+  }
+
   .desktop\:p-b-1 {
     padding-bottom: var(--sm);
   }
@@ -771,6 +831,10 @@ ol {
   }
   .desktop\:p-b-4 {
     padding-bottom: var(--xl);
+  }
+
+  .desktop\:p-l-0 {
+    padding-left: 0;
   }
 
   .desktop\:p-l-1 {
