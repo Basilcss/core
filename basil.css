@@ -23,6 +23,10 @@ Created by Daniel Bergmann, built by the community.
   --accent: rgb(35, 156, 22);
 }
 
+a {
+  color: var(--accent);
+}
+
 ul,
 ol {
   list-style-type: none;
