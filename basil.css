@@ -185,7 +185,6 @@ ol {
   }
 }
 
-
 .h-10 {
   height: 10%;
 }
@@ -249,7 +248,6 @@ ol {
     height: 100%;
   }
 }
-
 
 .row {
   display: grid;
@@ -875,7 +873,6 @@ ol {
     margin-left: var(--xl);
   }
 
-
   .big\:p-0 {
     padding: 0;
   }
@@ -961,7 +958,6 @@ ol {
   }
 }
 
-
 .fs-1 {
   font-size: var(--sm);
 }
@@ -992,5 +988,31 @@ ol {
 @media (min-width: 764px) {
   .big\:visible {
     display: block;
+  }
+}
+
+.t-right {
+  text-align: right;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-left {
+  text-align: left;
+}
+
+@media (min-width: 764px) {
+  .big\:t-right {
+    text-align: right;
+  }
+
+  .big\:t-center {
+    text-align: center;
+  }
+
+  .big\:t-left {
+    text-align: left;
   }
 }
