@@ -1,6 +1,6 @@
 {
   "name": "basilcss",
-  "version": "0.0.91",
+  "version": "0.0.92",
   "description": "A lightweight CSS framework",
   "main": "basil.css",
   "scripts": {

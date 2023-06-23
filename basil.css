@@ -595,7 +595,7 @@ ol {
 }
 
 .btn-primary:hover {
-  background-color: var(--primary);
+  background-color: var(--accent);
   color: var(--secondary);
 }
 
