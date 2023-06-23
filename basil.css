@@ -121,16 +121,6 @@ ol {
   }
 }
 
-.full-width {
-  width: 100%;
-}
-
-@media (min-width: 764px) {
-  .desktop\:full-width {
-    width: 100%;
-  }
-}
-
 .w-10 {
   width: 10%;
 }
@@ -162,7 +152,7 @@ ol {
   width: 100%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 764px) {
   .desktop\:w-10 {
     width: 10%;
   }
@@ -196,15 +186,70 @@ ol {
 }
 
 
+.h-10 {
+  height: 10%;
+}
+.h-20 {
+  height: 20%;
+}
+.h-30 {
+  height: 30%;
+}
+.h-40 {
+  height: 40%;
+}
+.h-50 {
+  height: 50%;
+}
+.h-60 {
+  height: 60%;
+}
+.h-70 {
+  height: 70%;
+}
+.h-80 {
+  height: 80%;
+}
+.h-90 {
+  height: 90%;
+}
 .full-height {
   height: 100%;
 }
 
 @media (min-width: 764px) {
+  .desktop\:h-10 {
+    height: 10%;
+  }
+  .desktop\:h-20 {
+    height: 20%;
+  }
+  .desktop\:h-30 {
+    height: 30%;
+  }
+  .desktop\:h-40 {
+    height: 40%;
+  }
+  .desktop\:h-50 {
+    height: 50%;
+  }
+  .desktop\:h-60 {
+    height: 60%;
+  }
+  .desktop\:h-70 {
+    height: 70%;
+  }
+  .desktop\:h-80 {
+    height: 80%;
+  }
+  .desktop\:h-90 {
+    height: 90%;
+  }
   .desktop\:full-height {
     height: 100%;
   }
 }
+
 
 .row {
   display: grid;
