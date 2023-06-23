@@ -131,6 +131,71 @@ ol {
   }
 }
 
+.w-10 {
+  width: 10%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
+.full-width {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .desktop\:w-10 {
+    width: 10%;
+  }
+  .desktop\:w-20 {
+    width: 20%;
+  }
+  .desktop\:w-30 {
+    width: 30%;
+  }
+  .desktop\:w-40 {
+    width: 40%;
+  }
+  .desktop\:w-50 {
+    width: 50%;
+  }
+  .desktop\:w-60 {
+    width: 60%;
+  }
+  .desktop\:w-70 {
+    width: 70%;
+  }
+  .desktop\:w-80 {
+    width: 80%;
+  }
+  .desktop\:w-90 {
+    width: 90%;
+  }
+  .desktop\:full-width {
+    width: 100%;
+  }
+}
+
+
 .full-height {
   height: 100%;
 }
