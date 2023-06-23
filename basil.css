@@ -649,6 +649,145 @@ ol {
   padding-left: var(--xl);
 }
 
+@media (min-width: 764px) {
+  .desktop\:m-0 {
+    margin: 0;
+  }
+  .desktop\:m-1 {
+    margin: var(--sm);
+  }
+  .desktop\:m-2 {
+    margin: var(--md);
+  }
+  .desktop\:m-3 {
+    margin: var(--lg);
+  }
+  .desktop\:m-4 {
+    margin: var(--xl);
+  }
+
+  .desktop\:m-t-1 {
+    margin-top: var(--sm);
+  }
+  .desktop\:m-t-2 {
+    margin-top: var(--md);
+  }
+  .desktop\:m-t-3 {
+    margin-top: var(--lg);
+  }
+  .desktop\:m-t-4 {
+    margin-top: var(--xl);
+  }
+
+  .desktop\:m-r-1 {
+    margin-right: var(--sm);
+  }
+  .desktop\:m-r-2 {
+    margin-right: var(--md);
+  }
+  .desktop\:m-r-3 {
+    margin-right: var(--lg);
+  }
+  .desktop\:m-r-4 {
+    margin-right: var(--xl);
+  }
+
+  .desktop\:m-b-1 {
+    margin-bottom: var(--sm);
+  }
+  .desktop\:m-b-2 {
+    margin-bottom: var(--md);
+  }
+  .desktop\:m-b-3 {
+    margin-bottom: var(--lg);
+  }
+  .desktop\:m-b-4 {
+    margin-bottom: var(--xl);
+  }
+
+  .desktop\:m-l-1 {
+    margin-left: var(--sm);
+  }
+  .desktop\:m-l-2 {
+    margin-left: var(--md);
+  }
+  .desktop\:m-l-3 {
+    margin-left: var(--lg);
+  }
+  .desktop\:m-l-4 {
+    margin-left: var(--xl);
+  }
+
+  .desktop\:p-0 {
+    padding: 0;
+  }
+  .desktop\:p-1 {
+    padding: var(--sm);
+  }
+  .desktop\:p-2 {
+    padding: var(--md);
+  }
+  .desktop\:p-3 {
+    padding: var(--lg);
+  }
+  .desktop\:p-4 {
+    padding: var(--xl);
+  }
+
+  .desktop\:p-t-1 {
+    padding-top: var(--sm);
+  }
+  .desktop\:p-t-2 {
+    padding-top: var(--md);
+  }
+  .desktop\:p-t-3 {
+    padding-top: var(--lg);
+  }
+  .desktop\:p-t-4 {
+    padding-top: var(--xl);
+  }
+
+  .desktop\:p-r-1 {
+    padding-right: var(--sm);
+  }
+  .desktop\:p-r-2 {
+    padding-right: var(--md);
+  }
+  .desktop\:p-r-3 {
+    padding-right: var(--lg);
+  }
+  .desktop\:p-r-4 {
+    padding-right: var(--xl);
+  }
+
+  .desktop\:p-b-1 {
+    padding-bottom: var(--sm);
+  }
+  .desktop\:p-b-2 {
+    padding-bottom: var(--md);
+  }
+  .desktop\:p-b-3 {
+    padding-bottom: var(--lg);
+  }
+  .desktop\:p-b-4 {
+    padding-bottom: var(--xl);
+  }
+
+  .desktop\:p-l-1 {
+    padding-left: var(--sm);
+  }
+  .desktop\:p-l-2 {
+    padding-left: var(--md);
+  }
+  .desktop\:p-l-3 {
+    padding-left: var(--lg);
+  }
+  .desktop\:p-l-4 {
+    padding-left: var(--xl);
+  }
+}
+
+
 .fs-1 {
   font-size: var(--sm);
 }
