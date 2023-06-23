@@ -27,6 +27,10 @@ a {
   color: var(--accent);
 }
 
+a:hover {
+  color: var(--secondary);
+}
+
 ul,
 ol {
   list-style-type: none;
