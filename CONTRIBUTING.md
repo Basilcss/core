@@ -1,4 +1,4 @@
-# Contributing to Basil CSS
+# Contributing to Basil.css
 
 Thank you for considering contributing to this repository! We appreciate your interest in making it better.
 
