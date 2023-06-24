@@ -25,10 +25,11 @@ Created by Daniel Bergmann, built by the community.
 
 a {
   color: var(--accent);
+  text-decoration: none;
 }
 
 a:hover {
-  color: var(--secondary);
+  text-decoration: underline;
 }
 
 ul,
