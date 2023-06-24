@@ -1,8 +1,8 @@
 {
   "name": "basilcss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight and flexible CSS framework",
-  "main": "basil.min.css",
+  "main": "basil.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Basilcss/core.git"
