@@ -20,7 +20,7 @@ Created by Daniel Bergmann, built by the community.
   /* colors */
   --primary: #333;
   --secondary: #fff;
-  --accent: #187F10;
+  --accent: #187f10;
 }
 
 a {
@@ -583,16 +583,16 @@ ol {
 }
 
 .btn-primary {
-  background-color: var(--secondary);
+  background-color: inherit;
   padding: 10px 20px;
-  border: 2px solid var(--accent);
+  border: 2px solid var(--primary);
   cursor: pointer;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
 }
 
 .btn-primary:hover {
-  background-color: var(--accent);
+  background-color: var(--primary);
   color: var(--secondary);
 }
 
