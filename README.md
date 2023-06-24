@@ -4,7 +4,7 @@
 
 ### A simple and lightweight CSS framework for building custom user interfaces.
 
-## how to use
+## How to use
 
 0) Run `npm install basilcss` or `yarn add basilcss` in your project directory.
 1) Go to your root file for example `main.jsx` and write `import 'basilcss'` on top of your file.
