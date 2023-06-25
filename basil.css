@@ -8,16 +8,11 @@ Created by Daniel Bergmann, built by the community.
   padding: 0;
   box-sizing: border-box;
 }
-
-/* CSS Variables */
 :root {
-  /* size */
   --sm: 0.5rem;
   --md: 1rem;
   --lg: 2rem;
   --xl: 3rem;
-
-  /* colors */
   --primary: #333;
   --secondary: #fff;
   --accent: #187f10;
