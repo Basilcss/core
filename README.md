@@ -1,8 +1,10 @@
 ![basilcss logo](https://raw.githubusercontent.com/Basilcss/docs/main/basilcss-transparent.png)
+
 # Basil CSS
+
 ### A simple and lightweight CSS framework for building custom user interfaces.
 
-## how to use
+## How to use
 
 0) Run `npm install basilcss` or `yarn add basilcss` in your project directory.
 1) Go to your root file for example `main.jsx` and write `import 'basilcss/basil.css'` on top of your file.
@@ -14,4 +16,4 @@ If you're interested in contributing to Basil CSS, please read our [contributing
 
 ## Documentation
 
-[Link to docs](https://docs-basilcss.vercel.app/)
+[Link to documentation](https://www.basilcss.com/)
