@@ -331,6 +331,18 @@ ol {
   justify-content: center;
   align-items: center;
 }
+.flex-row-rev-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.flex-row-rev-center-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
 
 .flex-col {
   display: flex;
@@ -346,6 +358,23 @@ ol {
 .flex-col-center-center {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col-rev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex-col-rev-center {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.flex-col-rev-center-center {
+  display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
 }
@@ -368,6 +397,31 @@ ol {
 
 .flex-row-right-center {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-row-rev-left {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.flex-row-rev-left-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-row-rev-right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.flex-row-rev-right-center {
+  display: flex;
+  flex-direction: row-reverse;
   justify-content: flex-end;
   align-items: center;
 }
@@ -397,6 +451,31 @@ ol {
   align-items: flex-end;
   justify-content: center;
 }
+.flex-col-rev-left {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+.flex-col-rev-left-center {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-col-rev-right {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.flex-col-rev-right-center {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}
 
 .flex-row-around {
   display: flex;
@@ -416,6 +495,31 @@ ol {
 
 .flex-row-between-center {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-row-rev-around {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.flex-row-rev-around-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-row-rev-between {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.flex-row-rev-between-center {
+  display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
@@ -445,6 +549,31 @@ ol {
   justify-content: space-between;
   align-items: center;
 }
+.flex--rev-around {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.flex-col-rev-between {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.flex-col-rev-around-center {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-col-rev-between-center {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
 
 @media (min-width: 764px) {
   .big\:flex-row {
@@ -458,6 +587,23 @@ ol {
 
   .big\:flex-row-center-center {
     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .big\:flex-row-rev {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .big\:flex-row-rev-center {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .big\:flex-row-rev-center-center {
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
   }
@@ -476,6 +622,23 @@ ol {
   .big\:flex-col-center-center {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .big\:flex-col-rev {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .big\:flex-col-rev-center {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .big\:flex-col-rev-center-center {
+    display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
@@ -498,6 +661,31 @@ ol {
 
   .big\:flex-row-right-center {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .big\:flex-row-rev-left {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+
+  .big\:flex-row-rev-left-center {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .big\:flex-row-rev-right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .big\:flex-row-rev-right-center {
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
   }
@@ -527,6 +715,31 @@ ol {
     align-items: flex-end;
     justify-content: center;
   }
+  .big\:flex-col-rev-left {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .big\:flex-col-rev-left-center {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .big\:flex-col-rev-right {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  .big\:flex-col-rev-right-center {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: center;
+  }
 
   .big\:flex-row-around {
     display: flex;
@@ -546,6 +759,31 @@ ol {
 
   .big\:flex-row-between-center {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .big\:flex-row-rev-around {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .big\:flex-row-rev-around-center {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .big\:flex-row-rev-between {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .big\:flex-row-rev-between-center {
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
   }
@@ -572,6 +810,31 @@ ol {
   .big\:flex-col-between-center {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .big\:flex-col-rev-around {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+  .flex-col-rev-between {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .big\:flex-col-rev-around-center {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .big\:flex-col-rev-between-center {
+    display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
   }
