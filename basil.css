@@ -18,15 +18,6 @@ Created by Daniel Bergmann, built by the community.
   --accent: #187f10;
 }
 
-a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 ul,
 ol {
   list-style-type: none;
