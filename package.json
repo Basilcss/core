@@ -1,11 +1,8 @@
 {
   "name": "basilcss",
-  "version": "0.0.97",
-  "description": "A lightweight CSS framework",
+  "version": "1.0.4",
+  "description": "A lightweight and flexible CSS framework",
   "main": "basil.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Basilcss/core.git"
@@ -18,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/Basilcss/core/issues"
   },
-  "homepage": "https://github.com/Basilcss"
+  "homepage": "https://www.basilcss.com/"
 }
