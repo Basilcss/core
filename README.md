@@ -10,6 +10,8 @@
 1) Go to your root file for example `main.jsx` and write `import 'basilcss'` on top of your file.
 2) Start styling your project.
 
+ If you have a vanilla HTML/CSS/JS project just add this line in your HTML tag:  <script src="https://unpkg.com/basilcss@1.1.2/basil.css"></script>
+
 ## Contributing
 
 If you're interested in contributing to Basil CSS, please read our [contributing docs](https://github.com/Basilcss/core/blob/main/CONTRIBUTING.md) **before submitting a pull request**.
