@@ -13,11 +13,12 @@
 If you have a vanilla HTML/CSS/JS project just add this line in your `<head>` HTML tag above your root css file: `<link rel="stylesheet" href="https://unpkg.com/basilcss@1.1.2/basil.css">` Make sure it's above so you can overwrite and spice up your styles as you develop your project.
 
 ### Like so:
-
-`<head>`
-`<link rel="stylesheet" href="https://unpkg.com/basilcss@1.1.2/basil.css">`
-`<link rel="stylesheet" href="./styles/global-styles.css">`
-`<head/>`
+```
+<head>
+<link rel="stylesheet" href="https://unpkg.com/basilcss@1.1.2/basil.css">
+<link rel="stylesheet" href="./styles/global-styles.css">
+<head/>
+```
 ## Contributing
 
 If you're interested in contributing to Basil CSS, please read our [contributing docs](https://github.com/Basilcss/core/blob/main/CONTRIBUTING.md) **before submitting a pull request**.
