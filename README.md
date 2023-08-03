@@ -18,7 +18,7 @@ If you have a vanilla HTML/CSS/JS project just add this line in your `<head>` HT
 <link rel="stylesheet" href="https://unpkg.com/basilcss@1.1.2/basil.css">
 // make sure it's above the main css file
 <link rel="stylesheet" href="./styles/main.css">
-<head/>
+</head>
 ```
 ## Contributing
 
