@@ -509,6 +509,18 @@ Created by Daniel Bergmann, built by the community.
   align-items: center;
 }
 
+.flex-row-alignCenter {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.flex-row-rev-alignCenter {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
 .flex-col-justifyAround {
   display: flex;
   flex-direction: column;
@@ -897,6 +909,18 @@ Created by Daniel Bergmann, built by the community.
     flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
+  }
+
+  .big\:flex-row-alignCenter {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .big\:flex-row-rev-alignCenter {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
   }
 
   .big\:flex-col-justifyEvenly {
@@ -1324,13 +1348,69 @@ Created by Daniel Bergmann, built by the community.
   }
 }
 
-.visible {
+.visibleBlock {
   display: block;
 }
 
+.visibleFlex {
+  display: flex;
+}
+
+.visibleGrid {
+  display: grid;
+}
+
+.visibleTable {
+  display: table;
+}
+
+.visibleInline {
+  display: inline;
+}
+
+.visibleInlineTable {
+  display: inline-table;
+}
+
+.visibleInlineBlock {
+  display: inline-block;
+}
+
+.visibleInlineFlex {
+  display: inline-flex;
+}
+
 @media (min-width: 764px) {
-  .big\:visible {
+  .big\:visibleBlock {
     display: block;
+  }
+
+  .big\:visibleFlex {
+    display: flex;
+  }
+
+  .big\:visibleGrid {
+    display: grid;
+  }
+
+  .big\:visibleTable {
+    display: table;
+  }
+
+  .big\:visibleInline {
+    display: inline;
+  }
+
+  .big\:visibleInlineTable {
+    display: inline-table;
+  }
+
+  .big\:visibleInlineBlock {
+    display: inline-block;
+  }
+
+  .big\:visibleInlineFlex {
+    display: inline-flex;
   }
 }
 
