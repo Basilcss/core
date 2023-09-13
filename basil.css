@@ -333,6 +333,12 @@ Created by Daniel Bergmann, built by the community.
   flex-direction: column;
 }
 
+.flex-col-justifyCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .flex-col-alignCenter {
   display: flex;
   flex-direction: column;
@@ -661,6 +667,12 @@ Created by Daniel Bergmann, built by the community.
     flex-direction: column;
   }
 
+  .big\:flex-col-justifyCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
   .big\:flex-col-alignCenter {
     display: flex;
     flex-direction: column;
