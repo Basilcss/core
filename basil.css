@@ -18,6 +18,16 @@ Created by Daniel Bergmann, built by the community.
   --accent: #187f10;
 }
 
+.m-auto {
+  margin: 0 auto;
+}
+
+@media (min-width: 764px) {
+  .big\:m-auto {
+    margin: 0 auto;
+  }
+}
+
 .vh-10 {
   height: 10vh;
 }
@@ -672,7 +682,7 @@ Created by Daniel Bergmann, built by the community.
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .big\:flex-col-alignCenter {
     display: flex;
     flex-direction: column;
