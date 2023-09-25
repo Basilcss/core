@@ -1347,19 +1347,6 @@ Created by Daniel Bergmann, built by the community.
   }
 }
 
-.fs-1 {
-  font-size: var(--sm);
-}
-.fs-2 {
-  font-size: var(--md);
-}
-.fs-3 {
-  font-size: var(--lg);
-}
-.fs-4 {
-  font-size: var(--xl);
-}
-
 .hidden {
   display: none;
 }
