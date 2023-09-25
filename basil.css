@@ -205,6 +205,10 @@ Created by Daniel Bergmann, built by the community.
   height: 100%;
 }
 
+.h-auto{
+  height:auto;
+}
+
 @media (min-width: 764px) {
   .big\:h-10 {
     height: 10%;
