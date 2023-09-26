@@ -209,6 +209,27 @@ Created by Daniel Bergmann, built by the community.
   height:auto;
 }
 
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+  .md\:h-auto {
+    height: auto;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+  .lg\:h-auto {
+    height: auto;
+  }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  .xl\:h-auto {
+    height: auto;
+  }
+}
+
 @media (min-width: 764px) {
   .big\:h-10 {
     height: 10%;
