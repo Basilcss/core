@@ -210,20 +210,6 @@ Created by Daniel Bergmann, built by the community.
 }
 
 
-/* Large devices (desktops) */
-@media (min-width: 992px) {
-  .lg\:h-auto {
-    height: auto;
-  }
-}
-
-/* Extra large devices (large desktops) */
-@media (min-width: 1200px) {
-  .xl\:h-auto {
-    height: auto;
-  }
-}
-
 @media (min-width: 764px) {
   .big\:h-10 {
     height: 10%;
@@ -254,6 +240,9 @@ Created by Daniel Bergmann, built by the community.
   }
   .big\:full-height {
     height: 100%;
+  }
+   .big\:h-auto {
+    height: auto;
   }
 }
 
