@@ -23,7 +23,6 @@ ol {
   margin-left: var(--md);
   margin-bottom: var(--md);
   list-style-position: inside;
-  font-family: Assistant, sans-serif;
   color: var(--primary);
   line-height: 1.5;
 }
@@ -1027,7 +1026,6 @@ li:hover {
   padding: 10px 20px;
   border: 2px solid var(--primary);
   cursor: pointer;
-  font-weight: 600;
   transition: all 0.3s ease-in-out;
 }
 
