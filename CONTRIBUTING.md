@@ -5,9 +5,11 @@ Thank you for considering contributing to this repository! We appreciate your in
 If you encounter any problems or bugs while using this repository, please open an issue on the issue tracker and provide as much detail as possible. Include steps to reproduce the issue and any relevant error messages or screenshots.
 
 ### Feature Requests
+
 If you have a new feature idea or an enhancement suggestion, please open an issue on the issue tracker and describe your proposal in detail. We encourage discussion and feedback on feature requests to ensure they align with the project's goals.
 
 ### Pull Requests
+
 We welcome pull requests that fix bugs, implement new features, or improve existing functionality. Before submitting a pull request, please follow these steps:
 
 Fork the repository and create a new branch for your feature or bug fix.
@@ -24,6 +26,7 @@ Any additional information that might be relevant to reviewers.
 We will review your pull request as soon as possible and provide feedback or merge it if it meets the project's guidelines and requirements.
 
 ### Code Guidelines
+
 To maintain consistency and readability in the codebase, please adhere to the following guidelines:
 
 Follow the programming language's style guide or the project's established conventions.
