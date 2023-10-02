@@ -8,6 +8,7 @@ Created by Daniel Bergmann, built by the community.
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --sm: 0.5rem;
   --md: 1rem;
@@ -15,7 +16,41 @@ Created by Daniel Bergmann, built by the community.
   --xl: 3rem;
   --primary: #333;
   --secondary: #fff;
-  --accent: #187f10;
+}
+
+ul,
+ol {
+  margin-left: var(--md);
+  margin-bottom: var(--md);
+  list-style-position: inside;
+  font-family: Assistant, sans-serif;
+  color: var(--primary);
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: var(--sm);
+  margin-left: var(--lg);
+}
+
+li {
+  margin-bottom: var(--sm);
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+  padding-left: var(--sm);
 }
 
 .m-auto {
@@ -205,10 +240,9 @@ Created by Daniel Bergmann, built by the community.
   height: 100%;
 }
 
-.h-auto{
-  height:auto;
+.h-auto {
+  height: auto;
 }
-
 
 @media (min-width: 764px) {
   .big\:h-10 {
@@ -241,7 +275,7 @@ Created by Daniel Bergmann, built by the community.
   .big\:full-height {
     height: 100%;
   }
-   .big\:h-auto {
+  .big\:h-auto {
     height: auto;
   }
 }
@@ -333,6 +367,7 @@ Created by Daniel Bergmann, built by the community.
   justify-content: center;
   align-items: center;
 }
+
 .flex-row-rev-justifyCenter {
   display: flex;
   flex-direction: row-reverse;
@@ -369,6 +404,7 @@ Created by Daniel Bergmann, built by the community.
   justify-content: center;
   align-items: center;
 }
+
 .flex-col-rev {
   display: flex;
   flex-direction: column-reverse;
@@ -459,6 +495,7 @@ Created by Daniel Bergmann, built by the community.
   align-items: flex-end;
   justify-content: center;
 }
+
 .flex-col-rev-alignLeft {
   display: flex;
   flex-direction: column-reverse;
@@ -703,6 +740,7 @@ Created by Daniel Bergmann, built by the community.
     justify-content: center;
     align-items: center;
   }
+
   .big\:flex-col-rev {
     display: flex;
     flex-direction: column-reverse;
@@ -742,6 +780,7 @@ Created by Daniel Bergmann, built by the community.
     justify-content: flex-end;
     align-items: center;
   }
+
   .big\:flex-row-rev-justifyLeft {
     display: flex;
     flex-direction: row-reverse;
@@ -793,6 +832,7 @@ Created by Daniel Bergmann, built by the community.
     align-items: flex-end;
     justify-content: center;
   }
+
   .big\:flex-col-rev-alignLeft {
     display: flex;
     flex-direction: column-reverse;
@@ -840,6 +880,7 @@ Created by Daniel Bergmann, built by the community.
     justify-content: space-between;
     align-items: center;
   }
+
   .big\:flex-row-rev-justifyAround {
     display: flex;
     flex-direction: row-reverse;
@@ -891,6 +932,7 @@ Created by Daniel Bergmann, built by the community.
     justify-content: space-between;
     align-items: center;
   }
+
   .big\:flex-col-rev-justifyAround {
     display: flex;
     flex-direction: column-reverse;
@@ -997,15 +1039,19 @@ Created by Daniel Bergmann, built by the community.
 .m-0 {
   margin: 0;
 }
+
 .m-1 {
   margin: var(--sm);
 }
+
 .m-2 {
   margin: var(--md);
 }
+
 .m-3 {
   margin: var(--lg);
 }
+
 .m-4 {
   margin: var(--xl);
 }
@@ -1013,6 +1059,7 @@ Created by Daniel Bergmann, built by the community.
 .m-t-0 {
   margin-top: 0;
 }
+
 .m-t-1 {
   margin-top: var(--sm);
 }
@@ -1092,15 +1139,19 @@ Created by Daniel Bergmann, built by the community.
 .p-0 {
   padding: 0;
 }
+
 .p-1 {
   padding: var(--sm);
 }
+
 .p-2 {
   padding: var(--md);
 }
+
 .p-3 {
   padding: var(--lg);
 }
+
 .p-4 {
   padding: var(--xl);
 }
@@ -1189,15 +1240,19 @@ Created by Daniel Bergmann, built by the community.
   .big\:m-0 {
     margin: 0;
   }
+
   .big\:m-1 {
     margin: var(--sm);
   }
+
   .big\:m-2 {
     margin: var(--md);
   }
+
   .big\:m-3 {
     margin: var(--lg);
   }
+
   .big\:m-4 {
     margin: var(--xl);
   }
@@ -1209,12 +1264,15 @@ Created by Daniel Bergmann, built by the community.
   .big\:m-t-1 {
     margin-top: var(--sm);
   }
+
   .big\:m-t-2 {
     margin-top: var(--md);
   }
+
   .big\:m-t-3 {
     margin-top: var(--lg);
   }
+
   .big\:m-t-4 {
     margin-top: var(--xl);
   }
@@ -1226,12 +1284,15 @@ Created by Daniel Bergmann, built by the community.
   .big\:m-r-1 {
     margin-right: var(--sm);
   }
+
   .big\:m-r-2 {
     margin-right: var(--md);
   }
+
   .big\:m-r-3 {
     margin-right: var(--lg);
   }
+
   .big\:m-r-4 {
     margin-right: var(--xl);
   }
@@ -1243,12 +1304,15 @@ Created by Daniel Bergmann, built by the community.
   .big\:m-b-1 {
     margin-bottom: var(--sm);
   }
+
   .big\:m-b-2 {
     margin-bottom: var(--md);
   }
+
   .big\:m-b-3 {
     margin-bottom: var(--lg);
   }
+
   .big\:m-b-4 {
     margin-bottom: var(--xl);
   }
@@ -1260,12 +1324,15 @@ Created by Daniel Bergmann, built by the community.
   .big\:m-l-1 {
     margin-left: var(--sm);
   }
+
   .big\:m-l-2 {
     margin-left: var(--md);
   }
+
   .big\:m-l-3 {
     margin-left: var(--lg);
   }
+
   .big\:m-l-4 {
     margin-left: var(--xl);
   }
@@ -1273,15 +1340,19 @@ Created by Daniel Bergmann, built by the community.
   .big\:p-0 {
     padding: 0;
   }
+
   .big\:p-1 {
     padding: var(--sm);
   }
+
   .big\:p-2 {
     padding: var(--md);
   }
+
   .big\:p-3 {
     padding: var(--lg);
   }
+
   .big\:p-4 {
     padding: var(--xl);
   }
@@ -1293,12 +1364,15 @@ Created by Daniel Bergmann, built by the community.
   .big\:p-t-1 {
     padding-top: var(--sm);
   }
+
   .big\:p-t-2 {
     padding-top: var(--md);
   }
+
   .big\:p-t-3 {
     padding-top: var(--lg);
   }
+
   .big\:p-t-4 {
     padding-top: var(--xl);
   }
@@ -1310,12 +1384,15 @@ Created by Daniel Bergmann, built by the community.
   .big\:p-r-1 {
     padding-right: var(--sm);
   }
+
   .big\:p-r-2 {
     padding-right: var(--md);
   }
+
   .big\:p-r-3 {
     padding-right: var(--lg);
   }
+
   .big\:p-r-4 {
     padding-right: var(--xl);
   }
@@ -1327,12 +1404,15 @@ Created by Daniel Bergmann, built by the community.
   .big\:p-b-1 {
     padding-bottom: var(--sm);
   }
+
   .big\:p-b-2 {
     padding-bottom: var(--md);
   }
+
   .big\:p-b-3 {
     padding-bottom: var(--lg);
   }
+
   .big\:p-b-4 {
     padding-bottom: var(--xl);
   }
@@ -1344,12 +1424,15 @@ Created by Daniel Bergmann, built by the community.
   .big\:p-l-1 {
     padding-left: var(--sm);
   }
+
   .big\:p-l-2 {
     padding-left: var(--md);
   }
+
   .big\:p-l-3 {
     padding-left: var(--lg);
   }
+
   .big\:p-l-4 {
     padding-left: var(--xl);
   }
@@ -1455,46 +1538,4 @@ Created by Daniel Bergmann, built by the community.
   .big\:t-left {
     text-align: left;
   }
-}
-
-
-/* Ordered List &  Unordered List*/
-
-/* Resetting margins and paddings */
-ul,
-ol {
-  margin-left: var(--md);
-  margin-bottom: var(--md);
-  list-style-position: inside;
-  font-family: Assistant,sans-serif;
-  color: var(--primary);
-  line-height: 1.5;
-}
-
-ul {
-  list-style-type: disc;
-  /* Default, set for clarity */
-}
-
-ol {
-  list-style-type: decimal;
-  /* Default, set for clarity */
-}
-
-ul ul,
-ol ol,
-ul ol,
-ol ul {
-  margin-top: var(--sm);
-  margin-left: var(--lg);
-}
-
-li {
-  margin-bottom: var(--sm);
-  transition: all 0.3s ease-in-out;
-}
-
-li:hover {
-  color: var(--accent);
-  padding-left: var(--sm);
 }
