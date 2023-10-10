@@ -14,8 +14,6 @@ Created by Daniel Bergmann, built by the community.
   --md: 1rem;
   --lg: 2rem;
   --xl: 3rem;
-  --primary: #333;
-  --secondary: #fff;
 }
 
 ul,
@@ -23,7 +21,6 @@ ol {
   margin-left: var(--md);
   margin-bottom: var(--md);
   list-style-position: inside;
-  color: var(--primary);
   line-height: 1.5;
 }
 
@@ -1019,19 +1016,6 @@ li:hover {
     justify-content: space-evenly;
     align-items: center;
   }
-}
-
-.btn-primary {
-  background-color: inherit;
-  padding: 10px 20px;
-  border: 2px solid var(--primary);
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn-primary:hover {
-  background-color: var(--primary);
-  color: var(--secondary);
 }
 
 .m-0 {
