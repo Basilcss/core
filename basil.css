@@ -26,6 +26,20 @@ Created by Daniel Bergmann, built by the community.
   }
 }
 
+.pic {
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+@media (min-width: 764px) {
+  .big\:pic {
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  }
+}
+
 .vh-10 {
   height: 10vh;
 }
