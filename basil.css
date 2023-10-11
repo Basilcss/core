@@ -16,39 +16,6 @@ Created by Daniel Bergmann, built by the community.
   --xl: 3rem;
 }
 
-ul,
-ol {
-  margin-left: var(--md);
-  margin-bottom: var(--md);
-  list-style-position: inside;
-  line-height: 1.5;
-}
-
-ul {
-  list-style-type: disc;
-}
-
-ol {
-  list-style-type: decimal;
-}
-
-ul ul,
-ol ol,
-ul ol,
-ol ul {
-  margin-top: var(--sm);
-  margin-left: var(--lg);
-}
-
-li {
-  margin-bottom: var(--sm);
-  transition: all 0.3s ease-in-out;
-}
-
-li:hover {
-  padding-left: var(--sm);
-}
-
 .m-auto {
   margin: 0 auto;
 }
