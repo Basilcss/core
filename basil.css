@@ -1635,29 +1635,3 @@ h6 {
     display: inline-flex;
   }
 }
-
-.t-right {
-  text-align: right;
-}
-
-.t-center {
-  text-align: center;
-}
-
-.t-left {
-  text-align: left;
-}
-
-@media (min-width: 764px) {
-  .big\:t-right {
-    text-align: right;
-  }
-
-  .big\:t-center {
-    text-align: center;
-  }
-
-  .big\:t-left {
-    text-align: left;
-  }
-}
