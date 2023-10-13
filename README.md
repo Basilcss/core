@@ -1,4 +1,4 @@
-![basilcss logo](https://raw.githubusercontent.com/Basilcss/docs/main/basilcss-transparent.png)
+![basilcss logo](https://raw.githubusercontent.com/Basilcss/component-showcase/main/public/basilcss-transparent.png)
 
 # Basil CSS
 
