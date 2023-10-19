@@ -8,7 +8,7 @@
     "url": "git+https://github.com/Basilcss/core.git"
   },
   "scripts": {
-    "postinstall": "echo 'Thank you for installing Basil.css! Please visit https://basilcss.com for documentation.'"
+    "postinstall": "echo '\u001b[36mThank you for installing Basil.css!\u001b[0m Please visit https://basilcss.com for documentation.'"
   },
   "keywords": [
     "basilcss"
