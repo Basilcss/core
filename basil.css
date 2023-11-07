@@ -612,7 +612,7 @@ h6 {
   align-items: flex-start;
 }
 
-.flex-col-alignLeft-justifycenter {
+.flex-col-alignLeft-justifyCenter {
   display: flex;
   flex-direction: column;
   justify-content: center;
