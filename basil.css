@@ -711,6 +711,11 @@ h6 {
   align-items: center;
   flex-direction: row;
 }
+.flex-row-alignEnd {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
 
 .flex-row-rev-alignCenter {
   display: flex;
@@ -1122,6 +1127,11 @@ h6 {
   .big\:flex-row-alignCenter {
     display: flex;
     align-items: center;
+    flex-direction: row;
+  }
+  .big\:flex-row-alignEnd {
+    display: flex;
+    align-items: flex-end;
     flex-direction: row;
   }
 
